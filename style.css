@@ -1,0 +1,211 @@
+#content{
+    padding-left:70px;
+}
+#navbar{
+    display:flex;
+    justify-content:flex-end;
+}
+#navbar a{
+    font-weight:700;
+    margin-right:30px;
+    text-decoration:none;
+    color:black;
+}
+#nv{
+    display:flex;
+    justify-content:space-evenly;
+    align-items:center;
+}
+#nv h3{
+    font-size:larger;
+    font-weight:1000;
+}
+#about{
+    width:550px;
+}
+#profiles{
+    display:flex;
+    margin-top:20px;
+    justify-content:center;
+}
+.p{
+    height:50px;
+    width:50px;
+    
+    border-radius:50%;
+    margin-right:8px;
+}
+#p1{
+    background-image:url("github.webp");
+    background-size:cover;
+}
+#p2{
+    background-image:url("linkedin.webp");
+    background-size:cover;
+}
+#p3{
+    background-image:url("Facebook_.png");
+    background-size:cover;
+}
+#p4{
+    background-image:url("insta.webp");
+    background-size:cover;
+}
+#buttons{
+    display:flex;
+    margin-top:30px;
+    justify-content:center;
+}
+#buttons button{
+    margin-right:30px;
+    height:50px;
+    width:150px;
+    background-color:darkgreen;
+    color:white;
+    box-shadow:2px 2px 5px black;
+    border:none;
+    border-radius:5px;
+}
+#image{
+    width:500px;
+    border-radius:5px;
+    background-image:url("Pic1.jpg");
+    background-size:cover;
+    box-shadow:2px 2px 5px black;
+}
+#intro{
+    display:flex;
+    justify-content:space-around;
+    margin-top:45px;
+    text-align:center;
+}
+#skill{
+    display:flex;
+    justify-content:space-around;
+    margin-top:50px;
+}
+#skillimg{
+    width:575px;
+    background-image:url("Coding.webp");
+    background-size:cover;
+}
+#aboutskills{
+    text-align:center;
+}
+.outer{
+    display:flex;
+    justify-content:center;
+}
+#techs{
+    width:50%;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-evenly;
+}
+.l{
+    height:50px;
+    width:50px;
+    margin:10px 20px 0px 0px;
+    border-radius:2px;
+}
+#l1{
+    background-image:url("html.png");
+    background-size:cover;
+}
+#l2{
+    background-image:url("css.png");
+    background-size:cover;
+}
+#l3{
+    background-image:url("js.webp");
+    background-size:cover;
+}
+#l4{
+    background-image:url("React.webp");
+    background-size:cover;
+}
+#l5{
+    background-image:url("node.png");
+    background-size:cover;
+}
+#l6{
+    background-image:url("mongodb.png");
+    background-size:cover;
+}
+#l7{
+    background-image:url("java.png");
+    background-size:cover;
+}
+#l8{
+    background-image:url("Python.png");
+    background-size:cover;
+}
+#opensource{
+    text-align:center;
+    margin-top:50px;
+}
+.pr{
+    height:150px;
+    width:40vw;
+    border:1px solid black;
+    margin-top:20px;
+    text-align:left;
+    padding-left:20px;
+    padding-RIGHT:20px;
+    background-color:darkseagreen;
+    box-shadow:3px 3px 5px black;
+    border-radius:2px;
+}
+.pr h3{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.pr p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#projects{
+    display:flex;
+    justify-content:space-around;
+    flex-wrap:wrap;
+}
+#achievements{
+    margin-top:50px;
+    display:flex;
+    justify-content: space-around;
+    margin-bottom:20px;
+}
+#aboutachieve{
+    text-align:center;
+}
+#achs{
+    display:flex;
+}
+.ac{
+    width:250px;
+    height:150px;
+    border:1px solid black;
+    border-radius: 3px;
+    box-shadow:3px 3px 4px black;
+    margin-right:20px;
+    background-color:khaki;
+    padding:15px 5px 0px 5px;
+}
+#achieveimg{
+    width:400px;
+    background-image:url("achieve.jpg");
+    background-size:cover;
+}
+footer{
+    background-color:brown;
+    color:white;
+    text-align:center;
+    margin-top:50px;
+}
+#contact{
+    padding-top:20px;
+    padding-bottom:20px;
+}
+#contact a{
+    text-decoration:none;
+    color:white;
+}
+
